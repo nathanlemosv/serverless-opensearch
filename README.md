@@ -7,7 +7,7 @@ The project needs a env-var called `AWS_ACCOUNT_ID` with the AWS account id as v
 
 ## To run
 
-* `[Install AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)`
+* [Install AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 * `cdk synth`       emits the synthesized CloudFormation template
 * `cdk bootstrap`   set resources to create de stack in AWS
 * `cdk deploy --all --require-approval never`      deploy this stack to your default AWS account/region
